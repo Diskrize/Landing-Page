@@ -169,6 +169,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     left: 51.5%;
     margin-left: -3px;
     top: 0;
+    max-width: 0;
 }
 .trending_wrapper {
     justify-content: center;
@@ -258,18 +259,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .trending_bin_raite {
     margin-right: 30px;
 }
-.trending_raite::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    bottom: 20%;
-    left: -35%;
-    margin: auto 0;
-    width: 23px;
-    height: 23px;
-    background: url("https://flyclipart.com/thumb2/ethereum-738482.png");
-    background-size: cover;
-}
+/*.trending_raite::before {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    top: 0;*/
+/*    bottom: 20%;*/
+/*    left: -35%;*/
+/*    margin: auto 0;*/
+/*    width: 23px;*/
+/*    height: 23px;*/
+/*    background: url("https://flyclipart.com/thumb2/ethereum-738482.png");*/
+/*    background-size: cover;*/
+/*}*/
 .trending_btn {
     margin: 0 auto;
     align-items: center;
@@ -305,8 +306,10 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .img_wrapper {
     background: #F5F5F5;
-    background: #F5F5F5;
-    border-radius: 15px;;
+    border-radius: 15px;
+}
+.img_wrapper img {
+    width: 100%;
 }
 .list_artist_title {
     font-family: 'Manrope',serif;
@@ -406,6 +409,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .footer_name {
     position: relative;
+    padding-left: 0;
 }
 .input_btn {
     content: 'Subscribe';
@@ -419,7 +423,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     position: absolute;
     width: 174px;
     height: 47px;
-    left: 87%;
+    left: 78%;
     right: 0%;
     top: 77%;
     bottom: 0%;
@@ -435,7 +439,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     position: absolute;
     width: 611px;
     top: 283px;
-    border: 2px solid rgba(18, 18, 18, 0.4);
+    border: 0.5px solid rgba(18, 18, 18, 0.4);
 }
 .footer_copy {
     margin-top: 100px;
@@ -445,4 +449,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     font-size: 16px;
     line-height: 20px;
     color: rgba(18, 18, 18, 0.4)
+}
+.footer_mar {
+    margin-left: 50px;
 }
