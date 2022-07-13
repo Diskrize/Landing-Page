@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav, header, footer, aside {display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.flex {
+    display: flex;
+}
+.body {
+    height: 10000px;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+.menu {
+    margin: 63px 0 100px 0;
+}
+.menu_search_item {
+    margin-left: 95px;
+    border: 1px solid #121212;
+    border-radius: 29px;
+    width: 435px;
+    height: 45px;
+    position: relative;
+}
+.menu_search_item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto 0;
+    width: 20px;
+    height: 20px;
+    background: url('https://cdn0.iconfinder.com/data/icons/multimedia-solid-30px/30/search-256.png') no-repeat;
+    background-size: cover;
+}
+.menu_search_item input {
+    width: 300px;
+    margin: 10px 0 0 50px;
+}
+::placeholder {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.menu_item {
+    margin-right: 29px;
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.6);
+    cursor: pointer;
+}
+.menu_logo{
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #121212;
+    cursor: pointer;
+}
+.header_title {
+    width: 818px;
+    margin: 0 auto;
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 104px;
+    text-align: center;
+    color: #121212;
+}
+.header_sub_title {
+    width: 733px;
+    margin: 0 auto;
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.6);
+}
+.header_btn {
+    margin: 0 auto;
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 174px;
+    height: 47px;
+    background: #121212;
+    box-shadow: 0px 15px 30px -9px rgba(18, 18, 18, 0.36);
+    border-radius: 29px;
+    cursor: pointer;
+}
+.header_img {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    min-height: 500px;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+.header_count {
+    font-family: 'Mulish',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+}
+.header_category {
+    font-family: 'Mulish',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.4)
+}
+.line_father {
+    position: relative;
+    margin-bottom: 80px;
+}
+.header_line {
+    border-left: 2px solid rgba(18, 18, 18, 0.1);
+    height: 77px;
+    position: absolute;
+    left: 51.5%;
+    margin-left: -3px;
+    top: 0;
+}
+.trending_wrapper {
+    justify-content: center;
+}
+.trending_title {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+.trending_card {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.trending_name {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+}
+.trending_author {
+    font-family: 'Mulish',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.trending_group_info {
+    flex-direction: column;
+    margin-left: 20px;
+}
+.trending_logo img {
+    border-radius: 50%;
+}
+.trending_info {
+    justify-content: start;
+    align-items: center;
+    margin-left: 15px;
+}
+.trending__end_bin {
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.trending_end {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-bottom: 10px;
+}
+.trending_time {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #121212;
+}
+.trending_bid {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-bottom: 10px;
+}
+.trending_raite {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #121212;
+    position: relative;
+}
+
+.trending_bin_raite {
+    margin-right: 30px;
+}
+.trending_raite::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 20%;
+    left: -35%;
+    margin: auto 0;
+    width: 23px;
+    height: 23px;
+    background: url("https://flyclipart.com/thumb2/ethereum-738482.png");
+    background-size: cover;
+}
+.trending_btn {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #121212;
+    border: 1px solid #121212;
+    border-radius: 55px;
+    width: 360px;
+    height: 59px;
+    cursor: pointer;
+}
+.trending_btn:hover {
+    color: white;
+    background-color: black;
+}
+.trending_img {
+    margin-bottom: 50px;
+}
+.trending_info {
+    margin-bottom: 15px;
+}
+.trending__end_bin {
+    margin-bottom: 30px;
+}
+.artist_list {
+    margin-top: 150px;
+}
+.img_wrapper {
+    background: #F5F5F5;
+    background: #F5F5F5;
+    border-radius: 15px;;
+}
+.list_artist_title {
+    font-family: 'Manrope',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+    color: #121212;
+}
+.artist_name {
+    font-family: 'Mulish',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+}
+.artist_list_price {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.artist_price {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.growth_percentage {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2EB67D;
+}
+.wrap_list_info {
+    display: flex;
+}
+
+
+/*FOOTER*/
+.footer_title_name {
+    margin-bottom: 25px;
+}
+.footer_title_name a{
+     font-family: 'Mulish', serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 25px;
+     color: #121212;
+ }
+.footer_sub_name {
+    margin-bottom: 15px;
+}
+.footer_sub_name a{
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.footer_name a {
+    text-decoration: none;
+}
+.footer_sub_name input {
+    border: 1px solid #121212;
+    border-radius: 56px;
+    width: 350px;
+    height: 56px;
+}
+.footer_subscribe a{
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.footer_sub_name input::placeholder {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-left: 20px;
+}
+.footer_name {
+    position: relative;
+}
+.input_btn {
+    content: 'Subscribe';
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 174px;
+    height: 47px;
+    left: 64%;
+    right: 0%;
+    top: 77%;
+    bottom: 0%;
+    background: #121212;
+    box-shadow: 0 15px 30px -9px rgba(18, 18, 18, 0.36);
+    border-radius: 29px;
+    cursor: pointer;
+}
