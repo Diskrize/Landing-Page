@@ -38,9 +38,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .flex {
     display: flex;
 }
-.body {
-    height: 10000px;
-}
 .container {
     margin: 0 auto;
     width: 100%;
@@ -386,8 +383,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .footer_sub_name input {
     border: 1px solid #121212;
     border-radius: 56px;
-    width: 350px;
+    width: 420px;
     height: 56px;
+    padding: 0 20px;
 }
 .footer_subscribe a{
     font-family: 'Mulish', serif;
@@ -421,7 +419,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     position: absolute;
     width: 174px;
     height: 47px;
-    left: 64%;
+    left: 87%;
     right: 0%;
     top: 77%;
     bottom: 0%;
@@ -429,4 +427,22 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     box-shadow: 0 15px 30px -9px rgba(18, 18, 18, 0.36);
     border-radius: 29px;
     cursor: pointer;
+}
+.footer_father_line {
+    position: relative;
+}
+.footer_line {
+    position: absolute;
+    width: 611px;
+    top: 283px;
+    border: 2px solid rgba(18, 18, 18, 0.4);
+}
+.footer_copy {
+    margin-top: 100px;
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(18, 18, 18, 0.4)
 }
