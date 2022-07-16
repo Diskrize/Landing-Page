@@ -502,7 +502,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
     margin-right: 15px;
 }
-
+                                                    /*ARTICLES SECTION*/
+.articles {
+    margin-top: 150px;
+}
+.articles_title {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+    color: #121212;
+    width: 200px;
+}
                                                     /*COMMUNITY SECTION*/
 .wrapper_community {
     margin-top: 100px;
