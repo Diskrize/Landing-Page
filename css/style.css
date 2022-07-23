@@ -506,6 +506,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .articles {
     margin-top: 150px;
 }
+.wrapper_articles {
+    align-items: center;
+}
 .articles_title {
     font-family: 'Manrope', serif;
     font-style: normal;
@@ -514,7 +517,79 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     line-height: 68px;
     text-align: center;
     color: #121212;
-    max-width: 200px;
+    margin-bottom: 50px
+
+}
+.articles_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articles_col>.articles_title {
+    max-width: 550px;
+}
+.articles_info_title {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+}
+.articles_info_text {
+    font-family: 'Mulish',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-top: 25px;
+}
+.articles_info_date{
+    margin-top: 25px;
+}
+.articles_info_block {
+    margin-left: 50px;
+}
+.articles_info {
+    margin-bottom: 5px;
+}
+.articles_info_date {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #121212;
+}
+.articles_info_publish, .articles_info_date {
+    margin-left: 40px;
+}
+.articles_info_views {
+    position: relative;
+}
+.articles_info_publish {
+    position: relative;
+}
+.articles_info_views::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/Watch.png);
+    top: 0;
+    bottom: 28%;
+    left: -35px;
+    margin: auto 0;
+    width: 19px;
+    height: 19px;
+}
+.articles_info_publish::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/Elipse.png);
+    top: 0;
+    bottom: 28%;
+    left: -14%;
+    margin: auto 0;
+    width: 19px;
+    height: 19px;
 }
                                                     /*COMMUNITY SECTION*/
 .wrapper_community {
