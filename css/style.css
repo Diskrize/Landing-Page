@@ -502,7 +502,228 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
     margin-right: 15px;
 }
-                                                    /*ARTICLES SECTION*/
+                                                    /*AUCTION SECTION*/
+.auction {
+    margin-top: 150px;
+}
+.auction_title{
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 50px
+}
+.wrapper_auction_img {
+    display: flex;
+    background: #F5F5F5;
+    border-radius: 15px;
+    width: 610px;
+    height: 524px;
+}
+.wrapper_auction_img img {
+    margin: auto;
+}
+.auction_wrap_info {
+    justify-content: start;
+}
+.wrapper_auction_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.auction_name{
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #121212;
+}
+.auction_bid {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-bottom: 10px;
+}
+.auction_price{
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+    padding-left: 30px;
+    position: relative;
+}
+.auction_price::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/ethereum-logo.png);
+    top: 0;
+    bottom: 34%;
+    left: -2%;
+    margin: auto 0;
+    width: 23px;
+    height: 23px;
+}
+.auction_end {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.6);
+    margin-bottom: 10px;
+}
+.auction_time {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #121212;
+}
+.wrapper_end_time {
+    margin-left: 235px;
+}
+.auction_create, .auction_names, .auction_collection, .auction_art{
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.auction_collection_art {
+    margin-left: 235px;
+}
+.auction_create, .auction_collection {
+    margin-bottom: 10px;
+}
+.auction_names {
+    background: #F5F5F5;
+    border-radius: 5px;
+    width: 178px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.auction_names::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/names_img.png);
+    top: 0;
+    bottom: 10%;
+    left: 14%;
+    margin: auto 0;
+    width: 23px;
+    height: 23px;
+}
+.auction_art {
+    background: #F5F5F5;
+    border-radius: 5px;
+    width: 146px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.auction_art::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/art_img.png);
+    top: 0;
+    bottom: 10%;
+    left: 17%;
+    margin: auto 0;
+    width: 23px;
+    height: 23px;
+}
+.auction_art span {
+    margin-left: 40px;
+}
+.auction_names span{
+    margin-left: 40px;
+}
+.auction_btn {
+    background: #121212;
+    box-shadow: 0px 20px 40px -7px rgba(18, 18, 18, 0.4);
+    border-radius: 55px;
+    width: 560px;
+    height: 75px;
+}
+.auction_btn span {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+                                        /*CATEGORY SECTION*/
+.category {
+    margin-top: 150px;
+}
+.category_title {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #121212;
+    text-align: center;
+}
+.category_description {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.6);
+    margin-top: 20px;
+}
+.category_menu ul {
+    justify-content: space-around;
+    padding-top: 31px;
+}
+.category_menu ul li {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.6);
+}
+.category_menu {
+    margin-top: 35px;
+    background: #F5F5F5;
+    border-radius: 80px;
+    height: 86px;
+}
+.category_menu ul li:hover {
+    color: white;
+    background: #121212;
+    border-radius: 50px;
+    width: 214px;
+    height: 66px;
+    padding-right: 20px;
+}
+.wrapper_category_block {
+    margin-top: 50px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    width: 295px;
+    height: 462px;
+}
+                                        /*ARTICLES SECTION*/
 .articles {
     margin-top: 150px;
 }
@@ -518,7 +739,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     text-align: center;
     color: #121212;
     margin-bottom: 50px
-
 }
 .articles_col {
     display: flex;
@@ -591,7 +811,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 19px;
     height: 19px;
 }
-                                                    /*COMMUNITY SECTION*/
+                                                        /*COMMUNITY SECTION*/
 .wrapper_community {
     margin-top: 100px;
     background: #F5F5F5;
