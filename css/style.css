@@ -722,6 +722,145 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     border-radius: 10px;
     width: 295px;
     height: 462px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_category_img {
+    margin: 15px auto ;
+}
+.wrapper_category_title {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #121212;
+    margin: 5px 0 0 20px;
+}
+.wrapper_logo_name {
+    align-items: center;
+    margin: 16px 0 0 16px;
+}
+.wrapper_category_name {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #121212;
+    position: relative;
+    margin-left: 15px;
+}
+.wrapper_category_name::after {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/category_name_menu.png);
+    top: 85%;
+    bottom: 0%;
+    left: 350%;
+    margin: auto 0;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+.wrapper_category_buy {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(18, 18, 18, 0.6);
+    margin: 29px 0 0 16px;
+}
+.category_price {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #121212;
+    margin: 9px 0 0 40px;
+    position: relative;
+}
+.category_price::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/ethereum-logo.png);
+    top: 0%;
+    bottom: -60%;
+    left: -35%;
+    margin: auto 0;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+.category_like {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(18, 18, 18, 0.6);
+    margin: 10px 45px 0 0;
+    position: relative;
+}
+.category_like::before {
+    position: absolute;
+    content: url(/WEB/Landing/Landing-Page/img/category_like.png);
+    top: 100%;
+    bottom: 0%;
+    left: 135%;
+    margin: auto 0;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+.wrapper_category_btn {
+    border: 1px solid rgba(18, 18, 18, 0.4);
+    border-radius: 29px;
+    width: 265px;
+    height: 47px;
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    justify-content: center;
+    color: #121212;
+    cursor: pointer;
+    margin: 20px 0 0 16px;
+}
+.wrapper_category_btn:hover {
+    color: white;
+    background-color: black;
+}
+.wrapper_category_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_category_view {
+    padding-top: 44px;
+}
+.category_btn_view {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    width: 190px;
+    height: 47px;
+    color: #121212;
+    border: 1px solid rgba(18, 18, 18, 0.4);
+    border-radius: 29px;
+    cursor: pointer;
+}
+.category_btn_view:hover {
+    color: white;
+    background-color: black;
 }
                                         /*ARTICLES SECTION*/
 .articles {
