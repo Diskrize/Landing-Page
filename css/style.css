@@ -1109,8 +1109,22 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: rgba(18, 18, 18, 0.4)
+    color: rgba(18, 18, 18, 0.4);
+    padding-bottom: 50px;
 }
 .footer_mar {
     margin-left: 50px;
+}
+                                                    /*MEDIA*/
+@media (max-width: 1200px) {
+    .wrapper_articles {
+        flex-direction: column;
+    }
+    .articles_info {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .articles_info_date {
+        justify-content: center;
+    }
 }
