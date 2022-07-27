@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin: 10px 0 0 50px;
 }
 ::placeholder {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .menu_item {
     margin-right: 29px;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     cursor: pointer;
 }
 .menu_logo{
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .header_title {
     width: 818px;
     margin: 0 auto;
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -115,7 +115,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .header_sub_title {
     width: 733px;
     margin: 0 auto;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .header_btn {
     margin: 0 auto;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     flex-wrap: wrap;
 }
 .header_count {
-    font-family: 'Mulish',serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -158,7 +158,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
 }
 .header_category {
-    font-family: 'Mulish',serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -185,7 +185,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     justify-content: center;
 }
 .trending_title {
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     padding-bottom: 30px;
 }
 .trending_name {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -207,7 +207,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
 }
 .trending_author {
-    font-family: 'Mulish',serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -240,7 +240,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 10px;
 }
 .trending_time {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -248,7 +248,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
 }
 .trending_bid {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -257,7 +257,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 10px;
 }
 .trending_raite {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -280,7 +280,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-right: 30px;
 }
 .trending_raite_artist {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -303,7 +303,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    font-family: 'Mulish',serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -343,7 +343,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 100%;
 }
 .list_artist_title {
-    font-family: 'Manrope',serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -353,7 +353,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 60px;
 }
 .artist_name {
-    font-family: 'Mulish',serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -362,7 +362,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
 }
 .artist_list_price {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -371,7 +371,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .artist_price {
     position: relative;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -389,7 +389,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 23px;
 }
 .growth_percentage {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -448,7 +448,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     border-radius: 50%;
 }
 .focus_artist_name {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -458,7 +458,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 176px;
 }
 .focus_growth_percentage {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -481,7 +481,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 19px;
 }
 .focus_artist_list {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -490,7 +490,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .focus_artist_price {
     position: relative;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -508,7 +508,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 23px;
 }
 .trending_focus_raite {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -521,7 +521,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-top: 150px;
 }
 .auction_title{
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -549,7 +549,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     justify-content: space-around;
 }
 .auction_name{
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -557,7 +557,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
 }
 .auction_bid {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -566,7 +566,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 10px;
 }
 .auction_price{
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -586,7 +586,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 23px;
 }
 .auction_end {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -595,7 +595,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 10px;
 }
 .auction_time {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -606,7 +606,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-left: 235px;
 }
 .auction_create, .auction_names, .auction_collection, .auction_art{
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -673,7 +673,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 75px;
 }
 .auction_btn span {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -686,7 +686,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-top: 150px;
 }
 .category_title {
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -695,7 +695,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     text-align: center;
 }
 .category_description {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -705,7 +705,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-top: 20px;
 }
 .category_menu ul li {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -745,7 +745,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin: 15px auto ;
 }
 .wrapper_category_title {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -759,7 +759,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     position: relative;
 }
 .wrapper_category_name {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -779,7 +779,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     cursor: pointer;
 }
 .wrapper_category_buy {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -788,7 +788,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin: 29px 0 0 16px;
 }
 .category_price {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -809,7 +809,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     cursor: pointer;
 }
 .category_like {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -834,7 +834,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     border-radius: 29px;
     width: 265px;
     height: 47px;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -862,7 +862,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -886,7 +886,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     align-items: center;
 }
 .articles_title {
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -904,7 +904,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     max-width: 550px;
 }
 .articles_info_title {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -912,7 +912,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: #121212;
 }
 .articles_info_text {
-    font-family: 'Mulish',serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -930,7 +930,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 5px;
 }
 .articles_info_date {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -987,7 +987,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin: 15px 5px 15px 0;
 }
 .community_title {
-    font-family: 'Manrope', serif;
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -996,7 +996,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 440px;
 }
 .community_sub_title {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1010,7 +1010,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     background: #121212;
     box-shadow: 0px 15px 30px -9px rgba(18, 18, 18, 0.36);
     border-radius: 29px;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1039,7 +1039,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 25px;
 }
 .footer_title_name a{
-     font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
      font-style: normal;
      font-weight: 700;
      font-size: 20px;
@@ -1050,7 +1050,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     margin-bottom: 15px;
 }
 .footer_sub_name a{
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1068,7 +1068,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     padding: 0 20px;
 }
 .footer_subscribe a{
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1076,7 +1076,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: rgba(18, 18, 18, 0.6);
 }
 .footer_sub_name input::placeholder {
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1090,7 +1090,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .input_btn {
     content: 'Subscribe';
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1120,7 +1120,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .footer_copy {
     margin-top: 100px;
-    font-family: 'Mulish', serif;
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1218,6 +1218,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     }
     .input_btn {
         left: 110%;
+        top: 80%;
     }
     .footer_show_1 {
         display: none;
@@ -1237,6 +1238,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     .input_btn {
         left: 152%;
         top:80%;
+    }
+    .footer_mar {
+        margin-left: 29px;
     }
 }
 @media (max-width: 768px) {
@@ -1288,7 +1292,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     }
     .input_btn {
         left: 212%;
-        top: 82%;
+        top: 84%;
     }
 }
 @media (max-width: 578px) {
@@ -1323,5 +1327,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     .input_btn {
         left: 212%;
         top: 82%;
+    }
+    .footer_copy {
+        text-align: center;
     }
 }
