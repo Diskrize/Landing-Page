@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&family=Mulish:wght@200;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -18,18 +19,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="menu flex">
-                        <ul class="flex align-items-center">
-                            <li class="menu_logo">Lanfty</li>
-                            <li class="menu_search_item"><input type="search" placeholder="Search items, collections, and more "></li>
-                        </ul>
-                        <ul class="flex align-items-center">
-                            <li class="menu_item">Artwork</li>
-                            <li class="menu_item">Discover</li>
-                            <li class="menu_item">Articles</li>
-                            <li class="menu_item">Create</li>
-                        </ul>
-                    </div>
+                    <nav class="navbar navbar-expand-xxl">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse menu flex" id="navbarNavDropdown">
+                                <ul class="flex align-items-center p-4">
+                                    <li class="nav-item menu_logo">
+                                        <a aria-current="page" href="#">Lanfty</a>
+                                    </li>
+                                    <li class="nav-item menu_search_item">
+                                        <input type="search" placeholder="Search items, collections, and more ">
+                                    </li>
+                                </ul>
+                                <ul class="flex menu_items align-items-center">
+                                    <li class="nav-item menu_item">
+                                        <a class="nav-link active " aria-current="page" href="#">Artwork</a>
+                                    </li>
+                                    <li class="nav-item menu_item">
+                                        <a class="nav-link" href="#">Discover</a>
+                                    </li>
+                                    <li class="nav-item menu_item">
+                                        <a class="nav-link" href="#">Articles</a>
+                                    </li>
+                                    <li class="nav-item menu_item">
+                                        <a class="nav-link" href="#">Create</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -50,11 +70,11 @@
                 </div>
             </div>
         </div>
-        <div class="container flex justify-content-sm-evenly">
-            <div class="row">
-                <div class="col-4 header_img"><img src="img/Header_1.png" alt=""></div>
-                <div class="col-4 header_img"><img src="img/Header_2.png" alt=""></div>
-                <div class="col-4 header_img"><img src="img/Header_3.png" alt=""></div>
+        <div class="container">
+            <div class="row wrapper_header_image">
+                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-7 col-sm-9 header_img"><img src="img/Header_1.png" alt=""></div>
+                <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-7 col-sm-9 header_img"><img src="img/Header_2.png" alt=""></div>
+                <div class="col-xxl-4 col-xl-10 col-lg-5 col-md-7 col-sm-9 header_img"><img src="img/Header_3.png" alt=""></div>
             </div>
         </div>
         <div class="container line_father">
@@ -212,7 +232,7 @@
                     </div>
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-12 wrap_focus_artist">
-                    <div class="wrapper_focus_artist flex align-items-center justify-content-between">
+                    <div class="wrapper_focus_artist flex">
                         <div class="wrapper_logo_focus">
                             <div class="artist_logo_focus"><img src="img/logo_focus.png" alt=""></div>
                         </div>
@@ -226,7 +246,7 @@
                         </div>
                         <div class="trending_focus_raite">7934.56 ETH</div>
                     </div>
-                    <div class="wrapper_focus_artist flex align-items-center justify-content-between">
+                    <div class="wrapper_focus_artist flex">
                         <div class="wrapper_logo_focus">
                             <div class="artist_logo_focus"><img src="img/logo_focus2.png" alt=""></div>
                         </div>
@@ -240,7 +260,7 @@
                         </div>
                         <div class="trending_focus_raite">6786.56 ETH</div>
                     </div>
-                    <div class="wrapper_focus_artist flex align-items-center justify-content-between">
+                    <div class="wrapper_focus_artist flex">
                         <div class="wrapper_logo_focus">
                             <div class="artist_logo_focus"><img src="img/logo_focus3.png" alt=""></div>
                         </div>
@@ -300,18 +320,6 @@
         <div class="container">
             <div class="category_title">Explore by Category ✨</div>
             <div class="category_description">Explore our category and collect thousand of amazing arts from the awesome artist.</div>
-            <div class="category_menu">
-                <ul class="flex category_menu_item">
-                    <li>All Categories</li>
-                    <li>Collectibles</li>
-                    <li>Art</li>
-                    <li>Photography</li>
-                    <li>Utility</li>
-                    <li>Domain Names</li>
-                    <li>Metaverse</li>
-                    <li>Games</li>
-                </ul>
-            </div>
             <div class="row">
                 <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-12">
                     <div class="wrapper_category_block">

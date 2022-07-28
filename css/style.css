@@ -44,9 +44,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
                                                 /*HEADER*/
-
+.navbar {
+    display: none;
+}
 .menu {
-    margin: 63px 0 100px 0;
+    margin: 0px 0 100px 0;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -92,14 +94,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: rgba(18, 18, 18, 0.6);
     cursor: pointer;
 }
-.menu_logo{
+.menu_logo a {
+    text-decoration:none;
+    color: #121212;
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 35px;
-    color: #121212;
     cursor: pointer;
+}
+.menu_logo a:hover {
+    color: #121212;
 }
 .header_title {
     width: 818px;
@@ -145,9 +151,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     padding-left: 0px;
     padding-right: 0px;
     margin: 0 auto;
-    min-height: 500px;
-    min-width: 400px;
     flex-wrap: wrap;
+    min-height: 500px;
+    width: 400px;
 }
 .header_count {
     font-family: 'Mulish', sans-serif;
@@ -432,6 +438,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 167px;
     width: 576px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
 }
 .wrap_focus_artist {
     display: flex;
@@ -701,7 +709,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     color: rgba(18, 18, 18, 0.6);
     margin-top: 20px;
 }
-.category_menu ul li {
+.category_menu div a {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -711,19 +719,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     padding-right: 50px;
     padding-top: 15px;
 }
-.category_menu {
-    margin-top: 35px;
-    background: #F5F5F5;
-    border-radius: 80px;
-    height: 86px;
-}
-/*.category_menu ul li {*/
-/*    color: white;*/
-/*    background: #121212;*/
-/*    border-radius: 50px;*/
-/*    width: 214px;*/
-/*    height: 66px;*/
-/*}*/
 .wrapper_category_block {
     margin-top: 50px;
     background: #F5F5F5;
@@ -732,11 +727,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 462px;
     display: flex;
     flex-direction: column;
-}
-.category_menu_item {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 16px;
 }
 .wrapper_category_img {
     margin: 15px auto ;
@@ -1151,13 +1141,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     }
     .menu {
         justify-content: center;
-        flex-direction: column-reverse;
     }
     .menu ul {
         justify-content: center;
     }
     .menu ul:first-child {
         margin-top: 20px;
+    }
+    .menu_items {
+        flex-direction: row;
     }
     .wrapper_articles {
         flex-direction: column;
@@ -1193,12 +1185,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     }
     .wrapper_auction_img {
         margin-top: 35px;
-    }
-    .category_menu {
-        height: 100%;
-    }
-    .category_menu ul li {
-        padding-bottom: 16px;
     }
     .community_img {
         justify-content: center;
@@ -1239,6 +1225,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     .footer_mar {
         margin-left: 29px;
     }
+    .menu_items {
+        flex-direction: row;
+    }
 }
 @media (max-width: 768px) {
     .header_count, .header_category {
@@ -1265,9 +1254,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     }
     .wrap_auction_img {
         display: none;
-    }
-    .category_menu {
-        margin-bottom: 10px;
     }
     .wrapper_category_block {
         margin: 10px auto;
@@ -1329,11 +1315,46 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
         text-align: center;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 530px) {
+    .artist_logo_focus {
+        display: none;
+    }
+}
+@media (max-width: 461px) {
     .auction_wrap_info, .auction_wrap_artist  {
         flex-direction: column;
     }
     .wrapper_end_time, .auction_collection_art {
         margin: 0;
+    }
+    .menu_items {
+        flex-direction: column;
+    }
+    .menu_item:not(:first-child) {
+        margin-top: 20px;
+    }
+    .menu_search_item {
+        display: none;
+    }
+    .header_img img{
+        width: 300px;
+        height: 350px;
+    }
+    .header_img {
+        min-height: 400px;
+    }
+    .trending_img img {
+        width: 100%;
+    }
+    .trending_card, .trending_btn {
+        width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .trending_focus_raite {
+        display: none;
+    }
+    .wrapper_focus_artist {
+        justify-content: center;
     }
 }
