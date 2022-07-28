@@ -187,6 +187,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
                                             /*TRENDING SECTION*/
 
+.top_trending {
+    margin-top: 150px;
+}
 .trending_wrapper {
     justify-content: center;
 }
@@ -954,6 +957,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     height: 19px;
 }
                                                         /*COMMUNITY SECTION*/
+.community_list {
+    margin-top: 150px;
+}
 .wrapper_community {
     margin-top: 100px;
     background: #F5F5F5;
@@ -1021,7 +1027,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
                                                     /*FOOTER*/
-
+.footer {
+    margin-top: 150px;
+}
 .footer_title_name {
     margin-bottom: 25px;
 }
@@ -1277,6 +1285,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
         left: 212%;
         top: 84%;
     }
+    .top_trending, .artist_list, .auction, .category, .articles, .community_list, .footer {
+        margin-top: 100px;
+    }
 }
 @media (max-width: 578px) {
     .line_father ul {
@@ -1356,5 +1367,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     }
     .wrapper_focus_artist {
         justify-content: center;
+    }
+}
+@media (max-width: 332px) {
+    .articles_info_publish::before {
+        bottom: 64%;
+        left: -11%;
+    }
+    .articles_info_views::before {
+        bottom: 60%;
+        left: -35px;
     }
 }
