@@ -1450,6 +1450,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
         width: 100%;
     }
 }
+@media (max-width: 385px) {
+    .trending_scale, .trending_scale_full {
+        display: none;
+    }
+}
 @media (max-width: 375px) {
     .trending_focus_raite {
         display: none;
